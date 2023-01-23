@@ -10,6 +10,8 @@ Policy-gradient method where at the end of the episode probability of taking eac
 
 ## Reinforce problems
  - high variance because of the stochasticity of the policy: because of the randomness in the environment and quasi-random<sup>1</sup> in the policy itself, simillar trajectories can lead to different outcomes. 
+
+<small>1. Quasi-random, as it is still based on a policy that with time learns better and better to choose right moves (distribution for the next action is showing the clean "winner action") where and when it matters.</small>
  
 ## Monte-carlo sampling
 
