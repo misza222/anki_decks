@@ -21,4 +21,6 @@ In comparison with Policy-gradient method, it helps to stalilize the training by
 
 ## A2C
 
-Advantage AC is a variant of Actor Critic where the choice of wether to bump up or lower the weights for taken action is taken based on the upside of this action among the (weighted) average of all the actions for this state.
+Advantage AC is a variant of Actor Critic where the choice of wether to bump up or lower the weights for taken action (in the Critic NN) is taken based on the upside of this action among the (weighted) average of all the actions for this state.
+
+What implications it has on a loss function for the Critic?
