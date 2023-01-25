@@ -489,6 +489,10 @@ V-Ray is a rendering software application from Chaos Group. It features both CPU
 
 Weta Digital, also known as Weta FX, is a visual effects studio based in New Zealand that worked on some of the biggest titles in the movie industry including The Lord of the Rings franchise, The Avengers, and The Hunger Games movies.
 
+## Witness camera
+
+All cameras other then the main camera 
+
 ## WWVFX
 
 Worldwide Visual Effects Contest. WWVFX is an international real-time VFX contest. Since it is focused on real-time visual effects, it is primarily aimed at video game developers and designers.

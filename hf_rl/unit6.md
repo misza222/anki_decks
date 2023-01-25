@@ -18,3 +18,9 @@ In comparison with Policy-gradient method, it helps to stalilize the training by
 * Given A<sub>t</sub> chosen by the Actor it performs it's estimation of the Q-value using function q_hat(S<sub>t</sub>, A<sub>t</sub>)
 * Observing state S<sub>t+1</sub> and reward R<sub>t+1</sub> it updates it's model for computing q_hat (parametrized with *w*):
   delta_w = beta * TD Error * w_grad, where the loss function is a TD Error = R(S<sub>t</sub>, A<sub>t</sub>) + epsilon * q_hat(S<sub>t+q</sub>, A<sub>t+1</sub>) - q_hat(S<sub>t</sub>, A<sub>t</sub>)
+
+## A2C
+
+Advantage AC is a variant of Actor Critic where the choice of wether to bump up or lower the weights for taken action (in the Critic NN) is taken based on the upside of this action among the (weighted) average of all the actions for this state.
+
+What implications it has on a loss function for the Critic?
