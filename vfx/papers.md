@@ -46,3 +46,26 @@ a method of multivariate interpolation on a 3D regular grid
 ## Interpolation
 
 a type of estimation, a method of constructing (finding) new data points based on the range of a discrete set of known data points
+
+## Lambertian material
+
+Material that nicely diffuses light and doesn't create reflections. The brightness of such material is the same regardless of an angle. Ideal for mattes.
+
+## Local Light Field Fusion by Mildenhall at el.
+
+Paper proposing reduction of number of training images without quality loss via:
+- by estimating amount of "depth" in the image it guides use about how many pictures to take of the scene
+- it is also handling light propagation better with merging local light field of adjescent images during inference.
+
+## Light field
+
+A way to represent amount of light in a scene that is incoming in every direction at every point in space. 
+
+## Plenoptics
+
+Capturing and processing the light field of a scene. Combines principles of optics and CG
+
+## CGI
+
+Computer generaterd imaginery
+
